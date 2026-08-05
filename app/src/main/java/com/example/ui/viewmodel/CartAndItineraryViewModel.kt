@@ -24,6 +24,26 @@ class CartAndItineraryViewModel(private val repository: TravyRepository) : ViewM
         items.filter { !it.isBooked }.sumOf { it.price }
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), 0.0)
 
+    fun addToCart(
+        itemType: String,
+        title: String,
+        subtitle: String,
+        dateOrDuration: String,
+        price: Double,
+        imageUrl: String
+    ) {
+        viewModelScope.launch {
+            repository.addToCart(
+                itemType = itemType,
+                title = title,
+                subtitle = subtitle,
+                dateOrDuration = dateOrDuration,
+                price = price,
+                imageUrl = imageUrl
+            )
+        }
+    }
+
     fun removeItem(id: Long) {
         viewModelScope.launch {
             repository.deleteCartItem(id)
