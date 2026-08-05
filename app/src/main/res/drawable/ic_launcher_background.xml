@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFEA336A" />
+                <item android:offset="0.5" android:color="#FFD8315B" />
+                <item android:offset="1.0" android:color="#FFA01A3F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Polka Dot Grid Motif -->
+    <path
+        android:fillColor="#25FFFFFF"
+        android:pathData="
+            M18,18 A1.5,1.5 0 1,1 18,17.9 Z
+            M36,18 A1.5,1.5 0 1,1 36,17.9 Z
+            M54,18 A1.5,1.5 0 1,1 54,17.9 Z
+            M72,18 A1.5,1.5 0 1,1 72,17.9 Z
+            M90,18 A1.5,1.5 0 1,1 90,17.9 Z
+
+            M18,36 A1.5,1.5 0 1,1 18,35.9 Z
+            M36,36 A1.5,1.5 0 1,1 36,35.9 Z
+            M54,36 A1.5,1.5 0 1,1 54,35.9 Z
+            M72,36 A1.5,1.5 0 1,1 72,35.9 Z
+            M90,36 A1.5,1.5 0 1,1 90,35.9 Z
+
+            M18,54 A1.5,1.5 0 1,1 18,53.9 Z
+            M36,54 A1.5,1.5 0 1,1 36,53.9 Z
+            M54,54 A1.5,1.5 0 1,1 54,53.9 Z
+            M72,54 A1.5,1.5 0 1,1 72,53.9 Z
+            M90,54 A1.5,1.5 0 1,1 90,53.9 Z
+
+            M18,72 A1.5,1.5 0 1,1 18,71.9 Z
+            M36,72 A1.5,1.5 0 1,1 36,71.9 Z
+            M54,72 A1.5,1.5 0 1,1 54,71.9 Z
+            M72,72 A1.5,1.5 0 1,1 72,71.9 Z
+            M90,72 A1.5,1.5 0 1,1 90,71.9 Z
+
+            M18,90 A1.5,1.5 0 1,1 18,89.9 Z
+            M36,90 A1.5,1.5 0 1,1 36,89.9 Z
+            M54,90 A1.5,1.5 0 1,1 54,89.9 Z
+            M72,90 A1.5,1.5 0 1,1 72,89.9 Z
+            M90,90 A1.5,1.5 0 1,1 90,89.9 Z
+        " />
+</vector>

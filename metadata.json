@@ -1,0 +1,6 @@
+{
+  "name": "Travy",
+  "description": "All-in-one travel platform with AI trip planning, travel agent marketplace, DIY bookings & social discovery",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

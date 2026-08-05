@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="0"
+        android:translateY="0">
+        
+        <!-- White Airplane Icon Soaring from top right of the logo -->
+        <!-- Airplane silhouette -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M78,30 L85,24 L88,27 L83,34 L89,39 L86,41 L79,36 L75,40 L76,43 L73,44 L70,39 L65,37 L66,34 L69,35 L74,31 Z" />
+        
+        <!-- Flying Arc Trail from the 'y' swoosh to airplane -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M52,66 C62,66 72,56 78,34 L74,32 C69,51 60,61 52,61 C45,61 40,56 42,48 L46,36 L52,36 L49,47 C48,51 50,54 53,54 C58,54 64,48 67,36 L73,36 C69,51 60,66 52,66 Z" />
+
+        <!-- Bold Italic Text 'Travy' Vector Path -->
+        <!-- 'T' -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M18,36 L34,36 L32,42 L28,42 L24,66 L18,66 L22,42 L16,42 Z" />
+
+        <!-- 'r' -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M30,48 L35,48 L34,53 C36,49 40,47 43,47 L41,53 C38,53 35,55 34,60 L33,66 L27,66 Z" />
+
+        <!-- 'a' -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M49,47 C53,47 56,50 55,55 L53,66 L48,66 L49,61 C47,64 44,67 40,67 C36,67 34,64 35,60 C36,56 40,53 47,53 L49,53 L49,52 C49,50 47,49 45,49 C43,49 41,50 40,51 L38,47 C41,45 45,47 49,47 Z M47,57 C43,57 40,58 40,61 C40,62 41,63 43,63 C46,63 48,60 49,57 Z" />
+
+        <!-- 'v' -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M56,48 L62,48 L61,58 L68,48 L74,48 L63,66 L57,66 Z" />
+
+    </group>
+</vector>
